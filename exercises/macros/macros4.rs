@@ -14,7 +14,6 @@ macro_rules! my_macro {
 }
 
 fn main() {
-    my_macro!();       // 调用不带参数的宏
-    my_macro!(7777);   // 调用带参数的宏
+    my_macro!(); // 调用不带参数的宏
+    my_macro!(7777); // 调用带参数的宏
 }
-
